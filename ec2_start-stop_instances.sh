@@ -22,7 +22,7 @@ DATE=`date +"%m-%d-%y"`
 function ec2_action() {
     local action_command=$1
     if [ -z "$action_command" ]; then
-        echo "Error get variation  (action_command)"
+        echo "Error get variable  (action_command)"
         exit 2	
     fi
 
